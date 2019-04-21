@@ -1,0 +1,92 @@
+﻿2019-03-28 15:28:58> Program: Starting Squirrel Updater: --createShortcut GitHubDesktop.exe -l StartMenu,Desktop
+2019-03-28 15:28:58> ApplyReleasesImpl: About to create shortcuts for GitHubDesktop.exe, rootAppDir C:\Users\xab\AppData\Local\GitHubDesktop
+2019-03-28 15:28:58> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\xab\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk
+2019-03-28 15:28:59> ApplyReleasesImpl: About to save shortcut: C:\Users\xab\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc.\GitHub Desktop.lnk (target C:\Users\xab\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\xab\AppData\Local\GitHubDesktop\app-1.6.5, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2019-03-28 15:28:59> ApplyReleasesImpl: Creating shortcut for GitHubDesktop.exe => C:\Users\xab\Desktop\GitHub Desktop.lnk
+2019-03-28 15:28:59> ApplyReleasesImpl: About to save shortcut: C:\Users\xab\Desktop\GitHub Desktop.lnk (target C:\Users\xab\AppData\Local\GitHubDesktop\GitHubDesktop.exe, workingDir C:\Users\xab\AppData\Local\GitHubDesktop\app-1.6.5, args , toastActivatorCSLID 27d44d0c-a542-5b90-bcdb-ac3126048ba2)
+2019-03-28 15:28:59> ApplyReleasesImpl: Examining Pin: Microsoft PowerPoint 2010.lnk
+2019-03-28 15:29:03> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:29:03> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:29:03> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:03> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:04> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:04> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:04> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:04> SingleGlobalInstance: Failed to grab lockfile, will retry: C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66: System.IO.IOException: 文件“C:\Users\xab\AppData\Local\Temp\.squirrel-lock-6E419588EC5EF271BD6C0D48B6F5145A20EC9A66”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   在 Squirrel.SingleGlobalInstance..ctor(String key, TimeSpan timeOut)
+2019-03-28 15:29:05> CheckForUpdateImpl: Generated new staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 15:29:05> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:29:05> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 15:31:09> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:31:09> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:31:09> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 15:31:09> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 15:31:09> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 17:05:34> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 17:05:34> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 17:05:34> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 17:05:34> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 17:05:35> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 20:53:23> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 20:53:23> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 20:53:23> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 20:53:23> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 20:53:24> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 21:48:45> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 21:48:45> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 21:48:45> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 21:48:45> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 21:48:45> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 22:15:42> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:15:42> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:15:42> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 22:15:43> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:15:43> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 22:16:15> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:16:16> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:16:16> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 22:16:16> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 22:16:16> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-03-28 23:33:11> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 23:33:12> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 23:33:12> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-03-28 23:33:12> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-03-28 23:33:12> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-04-14 22:53:19> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-14 22:53:19> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-14 22:53:19> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-04-14 22:53:19> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-14 22:53:19> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-04-20 23:05:54> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-20 23:05:54> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-20 23:05:54> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-04-20 23:05:54> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-20 23:05:54> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
+2019-04-21 16:40:55> Program: Starting Squirrel Updater: --checkForUpdate https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-21 16:40:55> Program: Fetching update information, downloading from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-21 16:40:55> CheckForUpdateImpl: Using existing staging user ID: bbc982b2-d7e7-5310-9140-232ca9d4129a
+2019-04-21 16:40:55> CheckForUpdateImpl: Downloading RELEASES file from https://central.github.com/api/deployments/desktop/desktop/latest?version=1.6.5&env=production
+2019-04-21 16:40:55> FileDownloader: Downloading url: https://central.github.com/api/deployments/desktop/desktop/latest/RELEASES?version=1.6.5&env=production&id=GitHubDesktop&localVersion=1.6.5&arch=amd64
